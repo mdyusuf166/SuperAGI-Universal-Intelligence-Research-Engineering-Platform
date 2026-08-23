@@ -12,6 +12,10 @@ Typed, optional-backend computational neuroscience abstractions for simplified n
 
 Typed quantum circuit and simulation research components with optional Qiskit, Aer, and PennyLane boundaries; mock outputs are explicitly controlled simulations.
 
+## ARC-07 — Robotics & Physical Intelligence
+
+Simulation-first robotics research abstractions for planning, trajectories, and control; no physical robot control by default.
+
 SuperAGI is an experimental modular AGI research and scientific intelligence
 platform.
 
