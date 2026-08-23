@@ -24,6 +24,10 @@ Defensive local-lab security analysis for synthetic logs, deterministic detectio
 
 Capability-based, deterministic multi-agent orchestration over existing research domains; computational/proposal outputs only.
 
+## ARC-10 — Personal Intelligence
+
+Consent-based personal profiles, goals, projects, bounded context, and ARC-09 coordination; no sensitive inference or autonomous action.
+
 SuperAGI is an experimental modular AGI research and scientific intelligence
 platform.
 
