@@ -28,6 +28,10 @@ Capability-based, deterministic multi-agent orchestration over existing research
 
 Consent-based personal profiles, goals, projects, bounded context, and ARC-09 coordination; no sensitive inference or autonomous action.
 
+## ARC-11 — Student & Education Intelligence
+
+Deterministic curriculum, practice, study planning, and research guidance with academic-integrity safeguards.
+
 SuperAGI is an experimental modular AGI research and scientific intelligence
 platform.
 

@@ -1,0 +1,3 @@
+from superagi.education import *
+student=StudentProfile(name="Alex",declared_knowledge=["Python"]);curriculum=CurriculumManager().create("AI Research",[{"name":"Algorithms","prerequisites":["Python"]},{"name":"Machine Learning","prerequisites":["Algorithms"]}]);gaps=KnowledgeGapAnalyzer().analyze(student,curriculum);plan=LearningPathPlanner().plan(student,curriculum,"Conduct AI research");q=PracticeEngine().question("Algorithms");assessment=MasteryEngine().assess("Algorithms",[])
+print("STUDENT PROFILE -> CURRENT KNOWLEDGE -> CURRICULUM -> PREREQUISITE GRAPH -> KNOWLEDGE GAPS -> LEARNING PATH -> PRACTICE -> MASTERY ASSESSMENT -> RESEARCH MENTOR -> ARC-09 AGENT ROUTING -> FINAL STUDY PLAN\n",{"gaps":gaps,"plan":plan,"practice":q,"mastery":assessment})
