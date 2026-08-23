@@ -8,6 +8,10 @@ Optional, adapter-backed molecular, DNA, chemistry, candidate-prioritization, an
 
 Typed, optional-backend computational neuroscience abstractions for simplified neurons, networks, simulations, and spike analysis; not a human brain, consciousness, or clinical BCI system.
 
+## ARC-06 — Quantum Computing & Quantum Intelligence Research
+
+Typed quantum circuit and simulation research components with optional Qiskit, Aer, and PennyLane boundaries; mock outputs are explicitly controlled simulations.
+
 SuperAGI is an experimental modular AGI research and scientific intelligence
 platform.
 
