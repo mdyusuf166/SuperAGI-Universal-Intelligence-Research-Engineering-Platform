@@ -20,6 +20,10 @@ Simulation-first robotics research abstractions for planning, trajectories, and 
 
 Defensive local-lab security analysis for synthetic logs, deterministic detection, static code patterns, and risk scoring; no scanning or exploitation.
 
+## ARC-09 — Universal Intelligence Orchestration
+
+Capability-based, deterministic multi-agent orchestration over existing research domains; computational/proposal outputs only.
+
 SuperAGI is an experimental modular AGI research and scientific intelligence
 platform.
 
