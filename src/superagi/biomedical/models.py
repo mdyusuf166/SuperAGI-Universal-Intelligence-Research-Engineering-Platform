@@ -16,6 +16,15 @@ class BiomedicalModel(BaseModel):
     model_config = ConfigDict(extra="forbid", validate_assignment=True)
 
 
+class AdapterStatus(str, Enum):
+    """Availability/result state for an optional computational backend."""
+    AVAILABLE = "AVAILABLE"
+    UNAVAILABLE = "UNAVAILABLE"
+    INVALID = "INVALID"
+    INVALID_INPUT = "INVALID_INPUT"
+    FAILED = "FAILED"
+
+
 class Molecule(BiomedicalModel):
     id: UUID = Field(default_factory=uuid4)
     smiles: str = Field(min_length=1)
@@ -101,7 +110,9 @@ class BiomedicalResearchResult(BiomedicalModel):
     question: str
     findings: list[dict[str, Any]] = Field(default_factory=list)
     evidence_ids: list[str] = Field(default_factory=list)
+    evidence: list[dict[str, Any]] = Field(default_factory=list)
     knowledge_gaps: list[str] = Field(default_factory=list)
     limitations: list[str] = Field(default_factory=list)
     hypotheses: list[str] = Field(default_factory=list)
     provenance: tuple[str, ...] = ()
+    provenance_ids: list[str] = Field(default_factory=list)

@@ -88,6 +88,16 @@ class EventType(str, Enum):
     PREDICTION_COMPLETED = "prediction_completed"
     PREDICTION_FAILED = "prediction_failed"
     CANDIDATE_RANKED = "candidate_ranked"
+    BIOMEDICAL_RESEARCH_STARTED = "biomedical_research_started"
+    BIOMEDICAL_STAGE_STARTED = "biomedical_stage_started"
+    BIOMEDICAL_STAGE_COMPLETED = "biomedical_stage_completed"
+    MOLECULAR_ANALYSIS_COMPLETED = "molecular_analysis_completed"
+    DNA_ANALYSIS_COMPLETED = "dna_analysis_completed"
+    CHEMISTRY_ANALYSIS_COMPLETED = "chemistry_analysis_completed"
+    BIOMEDICAL_HYPOTHESIS_CREATED = "biomedical_hypothesis_created"
+    BIOMEDICAL_VERIFICATION_COMPLETED = "biomedical_verification_completed"
+    BIOMEDICAL_RESEARCH_COMPLETED = "biomedical_research_completed"
+    BIOMEDICAL_RESEARCH_FAILED = "biomedical_research_failed"
 
 
 class Task(IdentityModel):

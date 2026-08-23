@@ -1,0 +1,3 @@
+# ARC-04B Biomedical Research
+
+ARC-04B composes ARC-01 agents/events, ARC-02 UniversalMemory/provenance, ARC-03 controlled research stages, and ARC-04 computational engines. The biomedical pipeline has explicit finite stages and no autonomous loop. Agents only label retrieved material as evidence; molecular/DNA analyses are computational results and model outputs are predictions. Safety decisions reject clinical, diagnostic, treatment, dosage, approval, and patient-specific requests. Metrics measure coverage, provenance presence, uncertainty availability, verification, and safety compliance—not accuracy.

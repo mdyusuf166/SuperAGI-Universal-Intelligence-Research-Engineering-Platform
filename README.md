@@ -1,5 +1,9 @@
 # SuperAGI
 
+## ARC-04 — Biomedical Intelligence
+
+Optional, adapter-backed molecular, DNA, chemistry, candidate-prioritization, and controlled biomedical research-pipeline components. Outputs are computational research results, not clinical recommendations or validation.
+
 SuperAGI is an experimental modular AGI research and scientific intelligence
 platform.
 
