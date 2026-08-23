@@ -16,6 +16,10 @@ Typed quantum circuit and simulation research components with optional Qiskit, A
 
 Simulation-first robotics research abstractions for planning, trajectories, and control; no physical robot control by default.
 
+## ARC-08 — Cybersecurity Intelligence
+
+Defensive local-lab security analysis for synthetic logs, deterministic detection, static code patterns, and risk scoring; no scanning or exploitation.
+
 SuperAGI is an experimental modular AGI research and scientific intelligence
 platform.
 
