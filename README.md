@@ -4,6 +4,10 @@
 
 Optional, adapter-backed molecular, DNA, chemistry, candidate-prioritization, and controlled biomedical research-pipeline components. Outputs are computational research results, not clinical recommendations or validation.
 
+## ARC-05 — Neurocomputing & Brain Intelligence
+
+Typed, optional-backend computational neuroscience abstractions for simplified neurons, networks, simulations, and spike analysis; not a human brain, consciousness, or clinical BCI system.
+
 SuperAGI is an experimental modular AGI research and scientific intelligence
 platform.
 

@@ -1,0 +1,2 @@
+from ..models import BrainArchitecture
+BrainArchitectureModel=BrainArchitecture
