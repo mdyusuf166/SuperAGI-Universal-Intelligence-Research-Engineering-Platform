@@ -32,6 +32,10 @@ Consent-based personal profiles, goals, projects, bounded context, and ARC-09 co
 
 Deterministic curriculum, practice, study planning, and research guidance with academic-integrity safeguards.
 
+## ARC-12 — Scientific Intelligence
+
+Evidence-labeled scientific questions, proposed hypotheses, non-executing experiments, and controlled mock simulations.
+
 SuperAGI is an experimental modular AGI research and scientific intelligence
 platform.
 

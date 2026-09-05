@@ -1,0 +1,2 @@
+def metrics(question,knowledge,hypothesis,critique):
+ return {"EvidenceCoverage":float(bool(question.evidence_refs)),"ProvenanceCompleteness":float(bool(question.provenance_refs)),"HypothesisQuality":round(hypothesis.confidence,2),"ContradictionRate":float(bool(hypothesis.contradictory_evidence)),"UnknownCoverage":float(bool(question.unknowns)),"DomainCoverage":min(1.0,len(question.domain)/2),"ReproducibilityScore":1.0}
